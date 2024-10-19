@@ -1,0 +1,863 @@
+*{ 
+   
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-family: 'Kohinoor', 'Georgia', 'Batang', serif;
+}
+.logo h1 span{
+    color: white;
+    text-shadow: 0px 0px 5px rgba(255, 0, 0, 0.836);
+}
+.list{
+    width: 30%;
+    margin-right: 20px;
+
+}
+.list ul{
+   width: 100%;
+   height: 100%;
+    display: flex;
+}
+.list ul li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+
+}
+.list ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-shadow: 0px 0px 10px rgb(245, 3, 43);
+}
+
+.list ul li a:hover{
+    background-color: rgb(242, 235, 235);
+    color: black;
+}
+
+
+
+.hero{
+    display: flex;
+    height: 600px;
+}
+.left{
+    height: 100%;
+    width: 50%;    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+   
+    
+    display: flex;
+    align-items: end;
+    
+}
+.right img{
+    height: 90%;
+    margin-left: -100px;
+    
+}
+.content{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.content h1{
+    font-size: 50px;
+}
+.content h1 span{
+    color: rgb(255, 0, 132);
+    
+}
+.content p{
+    font-size: 20px;
+    font-weight: 550;
+    
+    font-family: "Pompiere", sans-serif;
+    text-align: justify;
+    
+}
+.buttons{
+    border: 2px solid white;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    
+}
+.buttons button{
+    font-size: 15px;
+    background-color: pink;
+    color: black;
+    border: 2px solid pink;
+    height: 100%;
+    width: 50%;
+    font-family: "Pompiere", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    transition:  all 0.3s ease 0s;
+    cursor: pointer;
+}
+.buttons button:hover{
+    border: 2px solid rgb(249, 60, 91);
+    background-color: white;
+    color: rgb(233, 9, 46);
+   
+}
+.buttons a{
+    width: 100%;
+    
+}
+.main{
+    background-color: #ffffff;
+    height: 1060px;
+
+}
+.IndiaS{
+    height: 350px;
+    position: relative;
+    display: flex;
+   
+    padding-right: 50px;
+}
+.IndiaS #backi{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+.Ileft{
+    z-index: 1;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.Ileft img{
+
+   border-radius: 30px;
+    height: 350px;
+    width: 350px;
+}
+.Iright{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    width: 50%;
+}
+.Iright p{
+   
+    text-align: end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Tajawal', sans-serif;
+    text-align: justify;
+
+    
+}
+.Iright h1{
+    color: rgb(241, 87, 113);
+    font-family: 'Kohinoor Devanagari', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+   
+}
+.Iright .buttons {
+   
+    display: flex;
+    justify-content: end;
+    width: 55%;
+
+}
+.Iright .buttons a{
+    
+    width: 100%;
+    text-decoration: none ;
+    display: flex;
+    justify-content: end;
+}
+.Iright .buttons button{
+    font-family: 'Kohinoor Devanagari', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Iright .buttons button svg{
+    margin-top: 2px;
+    transition: all 0.3s ease 0s;
+    
+}
+.buttons button:hover svg {
+   fill: red;
+   width: 30px;
+   height: 40px ;
+}
+
+
+.AmericanS{
+    
+    height: 350px;
+    display: flex;
+    padding-left: 60px;
+}
+.Aleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+    height: 100%;
+    width: 50%;
+}
+.Aleft p{
+   
+    text-align: end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Rockwell', serif;
+    color: rgba(0, 0, 0, 0.885);
+    text-align: justify;
+
+    
+}
+.Aleft h1{
+    font-family: 'Rockwell', serif;
+    color: rgb(235, 99, 121);
+    font-size: 60px;
+    font-weight: bold;
+   
+}
+.Aleft .buttons {
+    
+    display: flex;
+    width: 55%;
+
+}
+.Aleft .buttons a{
+    
+    width: 100%;
+    text-decoration: none ;
+    display: flex;
+}
+
+.Aleft .buttons button{
+    font-family: 'Rockwell', serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Aleft .buttons button svg{
+    
+    margin-top: 2px;
+    transition: all 0.3s ease 0s;
+    
+}
+.buttons button:hover svg{
+    fill: red;
+}
+
+
+.Aright{
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.Aright img{
+    
+    height: 100%;
+    width: 40%;;
+}
+.KoreanS{
+    
+    height: 350px;
+    display: flex;
+    padding-right: 50px;
+}
+.Kleft{
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+   
+}
+.Kleft img{
+    margin-top: -8%;
+    height: 120%;
+    width: 40%;;
+}
+
+.Kright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;  
+    height: 100%;
+    width: 50%;
+}
+.Kright p{
+   
+    text-align: end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Gowun Batang', serif;
+    color: #000000;
+    text-align: justify;
+
+    
+}
+.Kright h1{
+    color: rgb(241, 87, 113);
+    font-family: 'Gowun Batang', serif;
+    font-size: 60px;
+    font-weight: bold;
+   
+}
+.Kright .buttons {
+    
+    display: flex;
+    justify-content: end;
+    width: 55%;
+
+}
+.Kright .buttons a{
+    
+    width: 100%;
+    text-decoration: none ;
+    display: flex;
+    justify-content: end;
+}
+.Kright .buttons button{
+    font-family: 'Gowun Batang', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Kright .buttons button svg{
+    margin-top: 2px;
+    transition: all 0.3s ease 0s;
+    
+}
+.buttons button:hover svg {
+   fill: red;
+   width: 30px;
+   height: 40px ;
+}
+.footer{
+    background-color: pink;
+    height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.one,.two,.three{
+    
+    height: 100%;
+    width: 20%;
+    
+}
+.one h1{
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+.one p{
+    
+    text-align: justify;
+    padding: 4px;
+    
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.one b{
+    margin-left: 15px;
+}
+.ids{
+   
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.insta{
+    display: flex;
+    align-items: center;
+    
+}
+.insta svg{
+    margin-right: 10px;
+}
+.insta a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.insta a:hover{
+    text-shadow : 0px 0px 5px aqua;
+    color: white;
+}
+.two h1{
+    font-size: 30px;
+     margin-top: 20px;
+     margin-left: 10px;
+}
+.LinkedIn{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.LinkedIn svg{
+    margin-right: 10px;
+    
+}
+.LinkedIn a{
+    text-decoration: none;
+    color: black;
+}
+.LinkedIn a:hover{
+    color: blue;
+    text-shadow: 1px 0px 3px white;
+}
+.three img{
+    margin-top: 10px;
+    height: 90%;
+    width: 90%;
+    
+}
+.copyright{
+    height: 80px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 0%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+.copyright a{
+    text-decoration: none;
+    color: black;
+}
+.copyright a:hover{
+    text-shadow: 0px 0px  5px pink;
+    color: white;
+}
+
+/* INDIAN STYLE */
+
+.Indianhero{
+    
+    
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(244, 237, 237);
+    
+    
+}
+.l1{
+    z-index: 1;
+    height: 100%;
+    width: 30%;
+}
+.l1 img{
+    margin-top: 16px;
+    height: 370px;
+    width: 400px;
+    border-radius: 20px;
+}
+.l2{
+    z-index: 1;
+    margin-top: 50px;
+   
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.l21{
+    height: 30%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.l21 h1{
+    width: 90%;
+    color: rgb(213, 78, 78);
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 0px 5px solid rgb(89, 18, 137);
+    align-items: center;
+    text-shadow: 0px 0px 5px rgb(255, 217, 5);
+    font-size: 40px;
+    gap: 0px;
+    
+    
+    
+}
+.l21 span{
+      font-size: 15px;
+      margin-right: 12px;
+      margin-bottom: 10px;
+    
+    
+}
+.l21 h2{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(237, 64, 64);
+    text-shadow: 0px 0px 40px rgb(237, 40, 40);
+}
+.l22{
+    
+    
+    height: 20%;
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background-color: rgb(246, 244, 244);
+     
+     
+
+}
+.l221,.l222,.l223{
+    padding-left: 10px;
+    border: 2px solid rgb(139, 72, 0);
+    border-radius: 40px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.l221 p,.l222 p,.l223 p{
+    margin-left: 20px;
+    font-size: 17px;
+    color: rgb(39, 188, 103);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+
+.ins1cards,.ins2cards,.ins3cards{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards {
+    border: 2px solid rgba(128, 128, 128, 0.404);
+    border-radius: 5px;
+    height: 87%;
+    width: 17%;
+}
+.cards .lower h1{
+    font-size: 1.8rem;
+}
+.cards .lower .rating span{
+    font-weight: bold;
+}
+.cards .lower .rating span:hover{
+    color: rgb(244, 165, 19);
+    cursor: pointer;
+    text-shadow: 0px 0px 1px black;
+}
+.cards .lower .price {
+    font-size: 28px;
+    color: rgb(25, 22, 22);
+    font-weight: bold;
+    
+}
+.cards .lower .price span{
+    font-size: 17px;
+    font-weight: 100;
+    color: #000000df;
+}
+.sticker{
+    border-radius: 5px;
+    height: 20%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+    background-color: rgb(206, 2, 2);
+}
+.sticker p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: monospace;
+     color: white;
+}
+
+
+.upper{
+   background-color:  rgba(128, 128, 128, 0.097);
+    height: 60%;
+    width: 100%;
+
+}
+.upper img{
+    height: 100%;
+    width: 100%;
+   
+}
+.lower{
+    padding-left: 4px;
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+    height: 40%;
+    width: 100%;
+}
+
+/* American Hero */
+.Americanhero{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(244, 237, 237);
+    
+}
+.A1{
+    z-index: 1;
+    
+    height: 100%;
+    width: 30%;
+}
+.A1 img{
+    margin-top: 16px;
+    height: 370px;
+    width: 400px;
+    border-radius: 20px;
+}
+.A2{
+    z-index: 1;
+    margin-top: 50px;
+   
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.A21{
+    height: 30%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.A21 h1{
+    width: 90%;
+    color: rgb(213, 78, 78);
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 0px 5px solid rgb(89, 18, 137);
+    align-items: center;
+    text-shadow: 0px 0px 5px rgb(255, 217, 5);
+    font-size: 40px;
+    gap: 0px;
+    
+    
+    
+}
+.A21 span{
+      font-size: 15px;
+      margin-right: 12px;
+      margin-bottom: 10px;
+    
+    
+}
+.A21 h2{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(237, 64, 64);
+    text-shadow: 0px 0px 40px rgb(237, 40, 40);
+}
+.A22{
+    
+    
+    height: 20%;
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background-color: rgb(246, 244, 244);
+     
+     
+
+}
+.A221,.A222,.A223{
+    padding-left: 10px;
+    border: 2px solid rgb(139, 72, 0);
+    border-radius: 40px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.A221 p,.A222 p,.A223 p{
+    margin-left: 20px;
+    font-size: 17px;
+    color: rgb(39, 188, 103);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+
+/* Korean style */
+.Koreanhero{
+    
+    
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(244, 237, 237);
+    
+}
+.K1{
+    z-index: 1;
+    
+    height: 100%;
+    width: 30%;
+}
+.K1 img{
+    margin-top: 16px;
+    height: 370px;
+    width: 400px;
+    border-radius: 20px;
+}
+.K2{
+    z-index: 1;
+    margin-top: 50px;
+   
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.K21{
+    height: 30%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.K21 h1{
+    width: 90%;
+    color: rgb(213, 78, 78);
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 0px 5px solid rgb(89, 18, 137);
+    align-items: center;
+    text-shadow: 0px 0px 5px rgb(255, 217, 5);
+    font-size: 40px;
+    gap: 0px;
+    
+    
+    
+}
+.K21 span{
+      font-size: 15px;
+      margin-right: 12px;
+      margin-bottom: 10px;
+    
+    
+}
+.K21 h2{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(237, 64, 64);
+    text-shadow: 0px 0px 40px rgb(237, 40, 40);
+}
+.K22{
+    
+    
+    height: 20%;
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background-color: rgb(246, 244, 244);
+     
+     
+
+}
+.K221,.K222,.K223{
+    padding-left: 10px;
+    border: 2px solid rgb(139, 72, 0);
+    border-radius: 40px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.K221 p,.K222 p,.K223 p{
+    margin-left: 20px;
+    font-size: 17px;
+    color: rgb(39, 188, 103);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+
+
